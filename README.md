@@ -12,5 +12,5 @@ This react hook requires two arguments: <br/>
 
 Syntax : const [state, dispatch] = useReducer(reducer, initialArg, init); <br/>
 
-The useReducer Hook is similar to the useState Hook. It allows for custom state logic. <br/>
+An alternative to useState. <br/>
 It helps us to manage complex states which are inter connected.
