@@ -14,3 +14,5 @@ Syntax : const [state, dispatch] = useReducer(reducer, initialArg, init); <br/>
 
 An alternative to useState. <br/>
 It helps us to manage complex states which are inter connected.
+
+# useState vs useReducer <br/>
