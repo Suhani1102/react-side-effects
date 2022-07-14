@@ -2,7 +2,7 @@
 To learn react side effects.
 
 # 1. useEffect: <br/>
-Syntax : useEffect(() => {...}, [dependency]); <br/>
+**Syntax** : useEffect(() => {...}, [dependency]); <br/>
 
 This react hook requires two arguments: <br/>
 1) A function that should be executed after every component evaluation if the specified dependencies changed. <br/>
@@ -10,7 +10,7 @@ This react hook requires two arguments: <br/>
 
 # 2. useReducer: <br/>
 
-Syntax : const [state, dispatch] = useReducer(reducer, initialArg, init); <br/>
+**Syntax** : const [state, dispatch] = useReducer(reducer, initialArg, init); <br/>
 
 An alternative to useState. <br/>
 It helps us to manage complex states which are inter connected.
