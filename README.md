@@ -27,3 +27,4 @@ props for configuration and context for state management across components or en
 
 **Context Limitations:**
 1. React Context is **not optimized** for high frequency changes.
+2. It **shouldn't be used to replace all** component communications and props.
