@@ -20,3 +20,5 @@ It helps us to manage complex states which are inter connected.
 **useState**: It is the main state managment tool. Great for independent pieces of state/data. <br/>
 
 **useReducer**: It's a good option if you need more power. Should be considered if you have related pieces of state/data. Can be helpful if you have more complex state updates.
+
+# 3.React Context API: <br/>
