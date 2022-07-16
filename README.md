@@ -28,3 +28,7 @@ props for configuration and context for state management across components or en
 **Context Limitations:**
 1. React Context is **not optimized** for high frequency changes.
 2. It **shouldn't be used to replace all** component communications and props.
+
+# Rules of Hooks
+1. Only call react hooks in **react functions** i.e react component functions or custom hooks. <br/>
+2. React hooks should be called at the **top level** i.e. don't call them in nested functions or in any block statement.
