@@ -23,7 +23,7 @@ It helps us to manage complex states which are inter connected.
 
 # 3.React Context API: <br/>
 
-props for configuration and context for state management across components or entire app.
+Use props for configuration and context for state management across components or entire app.
 
 **Context Limitations:**
 1. React Context is **not optimized** for high frequency changes.
