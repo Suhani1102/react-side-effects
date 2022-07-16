@@ -15,7 +15,7 @@ export const AuthContextProvider = (props) => {
     }
   }, []);
 
-  const loginHandler = (email, password) => {
+  const loginHandler = () => {
     // We should of course check email and password
     // But it's just a dummy/ demo anyways
     localStorage.setItem("isLoggedIn", "1");
@@ -28,7 +28,7 @@ export const AuthContextProvider = (props) => {
   };
 
   return (
-    <AuthContextProvider
+    <AuthContext.Provider
       value={{
         isLoggedIn: isLoggedIn,
         onLogout: logoutHandler,
@@ -36,7 +36,7 @@ export const AuthContextProvider = (props) => {
       }}
     >
       {props.children}
-    </AuthContextProvider>
+    </AuthContext.Provider>
   );
 };
 export default AuthContext;
