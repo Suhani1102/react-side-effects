@@ -1,5 +1,5 @@
 # react-useEffect
-To learn react side effects.
+To learn basics of react side effects.
 
 # 1. useEffect: <br/>
 **Syntax** : useEffect(() => {...}, [dependency]); <br/>
